@@ -34,7 +34,7 @@ services:
   webserver:
     depends_on:
       - wordpress
-    image: docker.angie.software/angie:templated
+    image: docker.angie.software/angie:latest
     container_name: webserver
     restart: unless-stopped
     ports:
